@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F5E686287F254300336B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5E685287F254300336B06 /* AppDelegate.swift */; };
+		05F5E68A287F254400336B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F5E689287F254400336B06 /* Assets.xcassets */; };
+		05F5E698287F254400336B06 /* ClipeusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5E697287F254400336B06 /* ClipeusTests.swift */; };
+		05F5E6A2287F254400336B06 /* ClipeusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5E6A1287F254400336B06 /* ClipeusUITests.swift */; };
+		05F5E6A4287F254400336B06 /* ClipeusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5E6A3287F254400336B06 /* ClipeusUITestsLaunchTests.swift */; };
+		05F5E6B1287F25A300336B06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5E6B0287F25A300336B06 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F5E694287F254400336B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F5E67A287F254300336B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F5E681287F254300336B06;
+			remoteInfo = Clipeus;
+		};
+		05F5E69E287F254400336B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F5E67A287F254300336B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F5E681287F254300336B06;
+			remoteInfo = Clipeus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F5E682287F254300336B06 /* Clipeus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipeus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F5E685287F254300336B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F5E689287F254400336B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F5E68E287F254400336B06 /* Clipeus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clipeus.entitlements; sourceTree = "<group>"; };
+		05F5E693287F254400336B06 /* ClipeusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipeusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F5E697287F254400336B06 /* ClipeusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipeusTests.swift; sourceTree = "<group>"; };
+		05F5E69D287F254400336B06 /* ClipeusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipeusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F5E6A1287F254400336B06 /* ClipeusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipeusUITests.swift; sourceTree = "<group>"; };
+		05F5E6A3287F254400336B06 /* ClipeusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipeusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05F5E6B0287F25A300336B06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		05F5E6B2287F261C00336B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F5E67F287F254300336B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E690287F254400336B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E69A287F254400336B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F5E679287F254300336B06 = {
+			isa = PBXGroup;
+			children = (
+				05F5E684287F254300336B06 /* Clipeus */,
+				05F5E696287F254400336B06 /* ClipeusTests */,
+				05F5E6A0287F254400336B06 /* ClipeusUITests */,
+				05F5E683287F254300336B06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F5E683287F254300336B06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F5E682287F254300336B06 /* Clipeus.app */,
+				05F5E693287F254400336B06 /* ClipeusTests.xctest */,
+				05F5E69D287F254400336B06 /* ClipeusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F5E684287F254300336B06 /* Clipeus */ = {
+			isa = PBXGroup;
+			children = (
+				05F5E6B2287F261C00336B06 /* Info.plist */,
+				05F5E685287F254300336B06 /* AppDelegate.swift */,
+				05F5E689287F254400336B06 /* Assets.xcassets */,
+				05F5E68E287F254400336B06 /* Clipeus.entitlements */,
+				05F5E6B0287F25A300336B06 /* main.swift */,
+			);
+			path = Clipeus;
+			sourceTree = "<group>";
+		};
+		05F5E696287F254400336B06 /* ClipeusTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F5E697287F254400336B06 /* ClipeusTests.swift */,
+			);
+			path = ClipeusTests;
+			sourceTree = "<group>";
+		};
+		05F5E6A0287F254400336B06 /* ClipeusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05F5E6A1287F254400336B06 /* ClipeusUITests.swift */,
+				05F5E6A3287F254400336B06 /* ClipeusUITestsLaunchTests.swift */,
+			);
+			path = ClipeusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F5E681287F254300336B06 /* Clipeus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5E6A7287F254400336B06 /* Build configuration list for PBXNativeTarget "Clipeus" */;
+			buildPhases = (
+				05F5E67E287F254300336B06 /* Sources */,
+				05F5E67F287F254300336B06 /* Frameworks */,
+				05F5E680287F254300336B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clipeus;
+			productName = Clipeus;
+			productReference = 05F5E682287F254300336B06 /* Clipeus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F5E692287F254400336B06 /* ClipeusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5E6AA287F254400336B06 /* Build configuration list for PBXNativeTarget "ClipeusTests" */;
+			buildPhases = (
+				05F5E68F287F254400336B06 /* Sources */,
+				05F5E690287F254400336B06 /* Frameworks */,
+				05F5E691287F254400336B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F5E695287F254400336B06 /* PBXTargetDependency */,
+			);
+			name = ClipeusTests;
+			productName = ClipeusTests;
+			productReference = 05F5E693287F254400336B06 /* ClipeusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F5E69C287F254400336B06 /* ClipeusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5E6AD287F254400336B06 /* Build configuration list for PBXNativeTarget "ClipeusUITests" */;
+			buildPhases = (
+				05F5E699287F254400336B06 /* Sources */,
+				05F5E69A287F254400336B06 /* Frameworks */,
+				05F5E69B287F254400336B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F5E69F287F254400336B06 /* PBXTargetDependency */,
+			);
+			name = ClipeusUITests;
+			productName = ClipeusUITests;
+			productReference = 05F5E69D287F254400336B06 /* ClipeusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F5E67A287F254300336B06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					05F5E681287F254300336B06 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					05F5E692287F254400336B06 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 05F5E681287F254300336B06;
+					};
+					05F5E69C287F254400336B06 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 05F5E681287F254300336B06;
+					};
+				};
+			};
+			buildConfigurationList = 05F5E67D287F254300336B06 /* Build configuration list for PBXProject "Clipeus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F5E679287F254300336B06;
+			productRefGroup = 05F5E683287F254300336B06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F5E681287F254300336B06 /* Clipeus */,
+				05F5E692287F254400336B06 /* ClipeusTests */,
+				05F5E69C287F254400336B06 /* ClipeusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F5E680287F254300336B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5E68A287F254400336B06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E691287F254400336B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E69B287F254400336B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F5E67E287F254300336B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5E6B1287F25A300336B06 /* main.swift in Sources */,
+				05F5E686287F254300336B06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E68F287F254400336B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5E698287F254400336B06 /* ClipeusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E699287F254400336B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5E6A4287F254400336B06 /* ClipeusUITestsLaunchTests.swift in Sources */,
+				05F5E6A2287F254400336B06 /* ClipeusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F5E695287F254400336B06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F5E681287F254300336B06 /* Clipeus */;
+			targetProxy = 05F5E694287F254400336B06 /* PBXContainerItemProxy */;
+		};
+		05F5E69F287F254400336B06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F5E681287F254300336B06 /* Clipeus */;
+			targetProxy = 05F5E69E287F254400336B06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05F5E6A5287F254400336B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F5E6A6287F254400336B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		05F5E6A8287F254400336B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Clipeus/Clipeus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clipeus/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucky.Clipeus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		05F5E6A9287F254400336B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Clipeus/Clipeus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clipeus/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucky.Clipeus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		05F5E6AB287F254400336B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucky.ClipeusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipeus.app/Contents/MacOS/Clipeus";
+			};
+			name = Debug;
+		};
+		05F5E6AC287F254400336B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucky.ClipeusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipeus.app/Contents/MacOS/Clipeus";
+			};
+			name = Release;
+		};
+		05F5E6AE287F254400336B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucky.ClipeusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Clipeus;
+			};
+			name = Debug;
+		};
+		05F5E6AF287F254400336B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucky.ClipeusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Clipeus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F5E67D287F254300336B06 /* Build configuration list for PBXProject "Clipeus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E6A5287F254400336B06 /* Debug */,
+				05F5E6A6287F254400336B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5E6A7287F254400336B06 /* Build configuration list for PBXNativeTarget "Clipeus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E6A8287F254400336B06 /* Debug */,
+				05F5E6A9287F254400336B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5E6AA287F254400336B06 /* Build configuration list for PBXNativeTarget "ClipeusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E6AB287F254400336B06 /* Debug */,
+				05F5E6AC287F254400336B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5E6AD287F254400336B06 /* Build configuration list for PBXNativeTarget "ClipeusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E6AE287F254400336B06 /* Debug */,
+				05F5E6AF287F254400336B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F5E67A287F254300336B06 /* Project object */;
+}
